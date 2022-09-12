@@ -1,0 +1,52 @@
+body {
+    background-color: #221f1f;
+    color: #ffffff;
+    margin: 0;
+}
+
+a {
+    color: #ffffff;
+}
+
+nav {
+    color: #ffffff;
+    justify-content: space-between;
+    margin: auto auto 2rem;
+    width: 50%;
+}
+
+nav a {
+    margin-left: .8rem;
+    text-align: right;
+    text-decoration: none;
+}
+
+footer {
+    bottom: 0;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+}
+
+.post-line {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.post-section {
+    color: #ffffff;
+    width: 50%;
+    margin: auto;
+}
+
+.post-info {
+    color: #ffffff;
+    width: 50%;
+    margin: auto;
+}
+
+.post-list {
+    margin: auto;
+    width: 50%;
+}
