@@ -20,8 +20,8 @@ body {
     color: #ffffff;
     margin: 0;
     font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
-                "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic",
-                "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic",
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 
 a {
@@ -32,7 +32,6 @@ nav {
     color: #ffffff;
     justify-content: space-between;
     margin: auto auto 2rem;
-    width: 50%;
 }
 
 nav a {
@@ -56,17 +55,59 @@ footer {
 
 .post-section {
     color: #ffffff;
-    width: 50%;
     margin: auto;
 }
 
 .post-info {
     color: #ffffff;
-    width: 50%;
     margin: auto;
 }
 
 .post-list {
     margin: auto;
-    width: 50%;
+}
+
+@media (max-width: 767px) {
+    nav {
+        width: 90%;
+    }
+    .post-section {
+        width: 90%;
+    }
+    .post-info {
+        width: 90%;
+    }
+    .post-list {
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    nav {
+        width: 90%;
+    }
+    .post-section {
+        width: 90%;
+    }
+    .post-info {
+        width: 90%;
+    }
+    .post-list {
+        width: 90%;
+    }
+}
+
+@media (min-width: 1024px) {
+    nav {
+        width: 50%;
+    }
+    .post-section {
+        width: 50%;
+    }
+    .post-info {
+        width: 50%;
+    }
+    .post-list {
+        width: 50%;
+    }
 }
