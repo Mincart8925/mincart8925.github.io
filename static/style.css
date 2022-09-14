@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-display: swap;
+    src: local('Pretendard Regular'),
+    url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/packages/pretendard/dist/web/static/woff2/Pretendard-Regular.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/packages/pretendard/dist/web/static/woff/Pretendard-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 700;
+    font-display: swap;
+    src: local('Pretendard Bold'),
+    url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/packages/pretendard/dist/web/static/woff2/Pretendard-Bold.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/packages/pretendard/dist/web/static/woff/Pretendard-Bold.woff') format('woff');
+}
+
+body {
+    background-color: #221f1f;
+    color: #ffffff;
+    margin: 0;
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
+    "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic",
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+a {
+    color: #ffffff;
+}
+
+nav {
+    color: #ffffff;
+    justify-content: space-between;
+    margin: auto auto 2rem;
+}
+
+nav a {
+    margin-left: .8rem;
+    text-align: right;
+    text-decoration: none;
+}
+
+footer {
+    bottom: 0;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+}
+
+.post-line {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.post-section {
+    color: #ffffff;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.post-info {
+    color: #ffffff;
+    margin: auto;
+}
+
+.post-list {
+    margin: auto;
+}
+
+@media (max-width: 767px) {
+    nav {
+        width: 90%;
+    }
+    .post-section {
+        width: 90%;
+    }
+    .post-info {
+        width: 90%;
+    }
+    .post-list {
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    nav {
+        width: 90%;
+    }
+    .post-section {
+        width: 90%;
+    }
+    .post-info {
+        width: 90%;
+    }
+    .post-list {
+        width: 90%;
+    }
+}
+
+@media (min-width: 1024px) {
+    nav {
+        width: 50%;
+    }
+    .post-section {
+        width: 50%;
+    }
+    .post-info {
+        width: 50%;
+    }
+    .post-list {
+        width: 50%;
+    }
+}
+
+.content-image {
+    max-width: 50%;
+}
