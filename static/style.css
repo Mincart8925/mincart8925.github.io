@@ -56,6 +56,7 @@ footer {
 .post-section {
     color: #ffffff;
     margin: auto;
+    padding-bottom: 50px;
 }
 
 .post-info {
@@ -110,4 +111,8 @@ footer {
     .post-list {
         width: 50%;
     }
+}
+
+.content-image {
+    max-width: 50%;
 }
