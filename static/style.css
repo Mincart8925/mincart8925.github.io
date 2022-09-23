@@ -68,6 +68,26 @@ footer {
     margin: auto;
 }
 
+.post-link {
+    margin-bottom: 0;
+}
+
+.index-pglink {
+    display: block;
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.index-timestamp {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    color: gray;
+}
+
 @media (max-width: 767px) {
     nav {
         width: 90%;
