@@ -89,6 +89,17 @@ footer {
     margin-bottom: 0;
 }
 
+.tag-item {
+    list-style-type: none;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.tag-line {
+    margin-bottom: 5px;
+}
+
 .index-pglink {
     display: block;
     margin: auto;
@@ -102,6 +113,23 @@ footer {
     padding-top: 5px;
     padding-bottom: 7px;
     color: gray;
+}
+
+.tag-itemcount {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: gray;
+}
+
+.tag-pagetitle {
+    margin-bottom: 0px;
+    padding-bottom: 3px;
+}
+
+.tag-block {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 @media (max-width: 767px) {
