@@ -132,6 +132,14 @@ footer {
     padding-right: 20px;
 }
 
+.build-info {
+    line-height: 5px;
+}
+
+.build-info h3 {
+    line-height: 30px;
+}
+
 @media (max-width: 767px) {
     nav {
         width: 90%;
