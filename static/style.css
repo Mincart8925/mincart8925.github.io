@@ -16,15 +16,15 @@
 }
 
 @font-face {
-    font-family: 'RIDIBatang';
-    src: local('RIDIBatang'),
-    url('/static/fonts/RIDIBatang.woff2');
+    font-family: 'MaruBuriLight';
+    src: local('MaruBuriLight'),
+    url('./fonts/MaruBuri-Light.woff2') format(woff2)
 }
 
 @font-face {
-    font-family: 'ChosunilboNM';
-    src: local('ChosunilboNM'),
-    url('/static/fonts/ChosunNm.woff2');
+    font-family: 'MaruBuriBold';
+    src: local('MaruBuriBold'),
+    url('./fonts/MaruBuri-Bold.woff2') format(woff2)
 }
 
 body {
@@ -66,14 +66,16 @@ footer {
 }
 
 .post-section {
-    font-family: ChosunilboNM, sans-serif;
+    font-family: MaruBuriLight, sans-serif;
+    font-weight: 200;
     color: #ffffff;
     margin: auto;
     padding-bottom: 50px;
 }
 
 .post-section strong {
-    font-family: RIDIBatang;
+    font-family: MaruBuriBold;
+    font-weight: 500;
 }
 
 .post-info {
