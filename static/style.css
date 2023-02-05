@@ -27,6 +27,12 @@
     url('./fonts/MaruBuri-Bold.woff2') format(woff2)
 }
 
+@font-face {
+    font-family: 'IBM Plex Mono';
+    src: local('IBM Plex Mono'),
+    url('./fonts/IBMPlex-Mono-Normal.woff2') format(woff2);
+}
+
 body {
     background-color: #221f1f;
     color: #ffffff;
@@ -58,6 +64,35 @@ footer {
     margin: auto;
     text-align: center;
     font-size: 12px;
+}
+
+.code {
+    background-color: #484141;
+    color: #ffffff;
+    padding: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.index-item {
+    list-style-type: square;
+}
+
+.index-pglink {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.index-timestamp {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    color: gray;
 }
 
 .post-line {
@@ -102,20 +137,6 @@ footer {
     margin-bottom: 5px;
 }
 
-.index-pglink {
-    display: block;
-    margin: auto;
-    text-align: center;
-}
-
-.index-timestamp {
-    font-size: 15px;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 5px;
-    padding-bottom: 7px;
-    color: gray;
-}
 
 .tag-itemcount {
     font-size: 20px;
